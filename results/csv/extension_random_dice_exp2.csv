@@ -1,0 +1,5 @@
+experiment,board_size,policy,episodes,success_rate,avg_moves,avg_reward,hold_rate
+2,50,always_move (classic game),1000,0.925,19.409,40.851,0.0
+2,50,random decisions,1000,0.305,28.35,-7.657,0.49897707231040567
+2,50,Q-Learning (move/hold),1000,0.738,23.503,111.473,0.6219206058801005
+2,50,SARSA (move/hold),1000,0.735,23.66,111.223,0.6550295857988165

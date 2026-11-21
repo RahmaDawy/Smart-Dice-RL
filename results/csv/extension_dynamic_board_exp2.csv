@@ -1,0 +1,6 @@
+experiment,board_size,policy,test_boards,success_rate,avg_moves,avg_reward
+2,50,dynamic DQN (sees the board),100,0.94,9.95,161.27
+2,50,random,100,0.92,17.66,47.48
+2,50,"static Q-Learning (core agent, position only)",100,0.26,25.38,-147.45
+2,50,static Q-Learning on its own fixed board,1,1.0,7.0,157.0
+2,50,BFS optimum (reference),100,1.0,5.53,170.23
